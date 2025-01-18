@@ -2,7 +2,7 @@
 // registered on ExtensionPay.com to test payments. You may need to
 // uninstall and reinstall the extension to make it work.
 // Don't forget to change the ID in background.js too!
-const extpay = ExtPay('sample-extension') 
+const extpay = ExtPay('quick-notes') 
 
 document.querySelector('button').addEventListener('click', extpay.openPaymentPage)
 
